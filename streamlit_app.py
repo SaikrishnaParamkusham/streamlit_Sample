@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import base64
 
-st.header("Equal Weighted Index Inputs")
+st.header("Index Input Template")
 
 if "df" not in st.session_state:
     st.session_state.df = pd.DataFrame(columns=["Source", "Table", "Field", "Date"])
